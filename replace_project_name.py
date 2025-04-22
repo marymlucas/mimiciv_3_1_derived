@@ -28,7 +28,7 @@ def find_and_replace_in_sql(root_folder, old_word, new_word):
 
 if __name__ == "__main__":
     folder_path = "concepts"
-    old_string = "mimiciv-335816"
-    new_string = "mymimiciv"
+    old_string = "mymimiciv"
+    new_string = {your_project_name} # replace this with your BigQuery project name
     find_and_replace_in_sql(folder_path, old_string, new_string)
     print("Search and replace operation completed.")
